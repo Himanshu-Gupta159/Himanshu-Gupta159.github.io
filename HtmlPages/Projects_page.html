@@ -1,0 +1,130 @@
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="../StyleSheets/StyleSheet1.css">
+</head>
+
+<body>
+                <div ><a href="Home.html"><img  src="../Images//Logo.png" alt="Home_Page" ></a></div>
+        <div class="TopPanel">
+                <a href="Home.html" style="text-decoration: none">Home</a>
+                <a id="selected" href="Projects_page.html" style="text-decoration: none">Projects</a>
+                <a href="Blogs_page.html" style="text-decoration: none">Blogs</a>
+                <a href="Assets_page.html" style="text-decoration: none">Assets</a>
+
+        </div>
+        <div class="MiddlePanel">
+                <div class="row">
+
+                        <div class="Panel" onmouseenter="currentDiv(0)" onmouseleave="Mouse_out(0)">
+                                <div class="panelHeading">Capture In Your Brain</div>
+
+                                <div class="panelbody" >
+
+                                        <span class="mytext"> Remember the images before time runs out, and get ready to guess the
+                                                correct image. </span>
+                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
+                                                <img style="width:100%; height: 100%;" src="../Images/Cature_in_your_brain.png" alt="Tick_tack_toe">
+                                        </span>
+                                </div>
+                                        <div style="display: none" class="myimage" class="panelfooter">Download</div>
+
+
+
+
+
+                                </div>
+                                <div class="Panel" onmouseenter="currentDiv(1)" onmouseleave="Mouse_out(1)">
+                                                <div class="panelHeading">Jigsaw Puzzle</div>
+                
+                                                <div class="panelbody" >
+                
+                                                        <span class="mytext"> Assemble the Jigsaw to make complete the puzzle </span>
+                                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
+                                                                        <img style="width:100%; height: 100%;" src="../Images/Jigsaw_Thumbnail.png" alt="Tick_tack_toe">
+                                                                </span>
+                                                </div>
+                                                        <div style="display: none" class="myimage" class="panelfooter">Download</div>
+                
+                
+                
+                
+                
+                                                </div>
+                                <div class="Panel" onmouseenter="currentDiv(2)" onmouseleave="Mouse_out(2)">
+                                                <div class="panelHeading">Tick Tack Toe</div>
+                
+                                                <div class="panelbody" >
+                
+                                                        <span class="mytext"> Remember the images before time runs out, and get ready to guess the
+                                                                correct image. </span>
+                                                                <span style="display: none; width: 100%; height: 100%;" class="myimage">
+                                                                                <img style="width:100%; height: 100%;" src="../Images/tictactoe.png" alt="Tick_tack_toe">
+                                                                        </span>
+                                                </div>
+                                                        <div style="display: none" class="myimage" class="panelfooter">Download</div>
+                
+                
+                
+                
+                
+                                                </div>
+
+                        </div>
+
+                </div>
+                <div class="BottomPanel">
+                        <div class="socialLinksImages">
+                                <a href="">
+                                        <img src="../Images/LinkId.png" alt="Linkin">
+                                </a>
+                                <a href="">
+                                        <img src="../Images/blogger.png" alt="Blogger">
+                                </a>
+                                <a href="">
+                                        <img src="../Images/youtube.png" alt="YouTube">
+                                </a>
+                                <a href="">
+                                        <img src="../Images/fb.png" alt="FaceBook">
+                                </a>
+                                <a href="">
+                                        <img src="../Images//twitter.png" alt="Twitter">
+                                </a>
+                                <a href="">
+                                        <img src="../Images/instagram.png" alt="Instagram">
+                                </a>
+                        </div>
+                </div>
+                <script>
+
+                        function Mouse_out(n) {
+                                var x =  document.getElementsByClassName("mytext");
+                      
+                          
+                                x[n].style.display = "block";
+                       
+                           var y=   document.getElementsByClassName("myimage");
+                           
+                           for (i = n*2; i < (n*2)+2; i++) {
+                                y[i].style.display = "none";
+                        }
+
+                        }
+                        function currentDiv(n) {
+                           var x =  document.getElementsByClassName("mytext");
+                      
+                        
+                                x[n].style.display = "none";
+                        
+                           var y=   document.getElementsByClassName("myimage");
+                           
+                           for (i = n*2; i < (n*2)+2; i++) {
+                                y[i].style.display = "block";
+                        }
+
+                        }
+
+                </script>
+</body>
+
+</html>
