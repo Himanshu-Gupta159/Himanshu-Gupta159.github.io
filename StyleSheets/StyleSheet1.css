@@ -5,15 +5,19 @@ body {
 
 .MiddlePanel {
    background-color: rgba(0, 0, 0);
-   min-height: 70%;
+   min-height: 80%;
 
 }
-
+.Logo
+{
+   background-color: rgba(0, 0, 0);
+  
+}
 .TopPanel {
    background-color: rgba(0, 0, 0);
    min-height: 10%;
    margin-left: 25%;
-   /* margin-top: 8%; */
+  
 }
 
 .TopPanel>a {
@@ -32,7 +36,7 @@ body {
 
 .BottomPanel {
    background-color: rgb(48, 48, 48);
-   min-height: 20%;
+   min-height: 10%;
 }
 
 .socialLinksImages {
@@ -44,7 +48,7 @@ body {
 }
 
 .TopPanel>a:hover {
-   background-color: rgb(43, 44, 43);
+   background-color:rgba(124, 124, 124, 0.356);
 }
 
 #selected {
