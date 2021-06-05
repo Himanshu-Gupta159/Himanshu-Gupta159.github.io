@@ -1,29 +1,55 @@
 body {
    background-color: rgb(0, 0, 0);
    color: white;
+   padding: 0;
+   margin: 0;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
-
-.MiddlePanel {
-   background-color: rgba(0, 0, 0);
-   min-height: 80%;
-
-}
-.Logo
+.Banner
 {
-   background-color: rgba(0, 0, 0);
-  
+background:url("../Images/MyCutOutBackground.png");
+
+ /* Full height */
+ height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
-.TopPanel {
-   background-color: rgba(0, 0, 0);
-   min-height: 10%;
-   margin-left: 25%;
-  
+.BannerText
+{
+margin: 300px 0 0 250px;
+
+}
+.BannerText>h1
+{
+font-family:"Rubik","Arial",sans-serif;
+color: rgb(255, 168, 6);
+
 }
 
-.TopPanel>a {
-   font-size: large;
+.BannerText>h2
+{   
+font-family:"Rubik","Arial",sans-serif;
+color: rgb(241, 197, 156);
+font-size: 1.2em;
+font-variant: small-caps;
+margin-top: 35px;
+}
+
+
+
+.HeaderBar
+{
+ padding-top: 10px;
+display: flex;
+justify-content:flex-end;
+}
+.HeaderBar>a {
+   font-size: small;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   margin-right: 10%;
+   margin-right: 2%;
    color: white;
    display: inline-block;
    width: 100px;
@@ -33,10 +59,22 @@ body {
    text-align: center;
    font-weight: bolder;
 }
+.HeaderBar>a:hover {
+   background-color:rgba(124, 124, 124, 0.356);
+}
+.Logo
+{
+   background-color: rgba(0, 0, 0);
+  
+}
+.MiddlePanel {
+   background-color: rgba(0, 0, 0);
+  
 
+}
 .BottomPanel {
    background-color: rgb(48, 48, 48);
-   min-height: 10%;
+  
 }
 
 .socialLinksImages {
@@ -47,9 +85,7 @@ body {
    margin: 5px;
 }
 
-.TopPanel>a:hover {
-   background-color:rgba(124, 124, 124, 0.356);
-}
+
 
 #selected {
    background-color: rgb(33, 150, 243);
@@ -75,17 +111,32 @@ body {
    flex-direction: row;
    -ms-flex-wrap: wrap;
    flex-wrap: wrap;
-   /* margin-right: -15px;
-   margin-left: -15px; */
+  
 }
 
-.Panel {
-   width: 17%;
-   min-height: 300px;
+.Panel1 {
+   width: 32%;
+   min-height: 560px;
    text-align: center;
    border: 2px white solid;
-   margin-left: 2%;
-   margin-bottom: 2%;
+   margin-left: 12%;
+   margin-bottom:4%;
+   border-radius: 5px;
+   max-height: 300px;
+   display: flex;
+   flex-direction: column;
+   background-position: center;
+   background-size: cover;
+}
+.Panel2
+{
+   margin-top: 10vh;
+   width: 32%;
+   min-height: 560px;
+   text-align: center;
+   border: 2px white solid;
+   margin-left: 12%;
+   margin-bottom:4%;
    border-radius: 5px;
    max-height: 300px;
    display: flex;
@@ -94,12 +145,6 @@ body {
    background-size: cover;
 }
 
-.Panel:hover {
-   background-color: white;
-   transform:scale(1.1);
-   color: black;
-   border-color: rgb(50, 150, 243);
-}
 
 .panelHeading {
    font-size: larger;
@@ -108,17 +153,22 @@ body {
 
 .panelbody {
    size: inherit;
-   height: 70%;
+   height: 80%;
    color: rgb(33, 150, 243);
    display: flex;
 }
-
-.panelfooter {
-   size: inherit;
-   height: 10%;
-   color: rgb(33, 150, 243);
-   margin-top: 10px;
+.ExpandBttn
+{
+   background-color: transparent;
+    border: 2px solid;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: fit-content;
 }
+
 
 .circle {
    border: 1px solid #ccc;
