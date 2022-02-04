@@ -9,201 +9,93 @@
 <body>
 
         <!--Start of Banner Section-->
+        <!-- TODO
+        SocialHandles icon are stretching.
+        SocialHandles icons outline not matching.
+        -->
         <div id="Home" class="Banner">
                 <div class="HeaderBar">
-                        <a id="selected" href="#Home">Home</a>
-                        <a href="#About">About</a>
-                        <a href="#Projects">Projects</a>
-                        <a href="#Blogs">Blogs</a>
-                        <a href="#Contact">Contact</a>
+                        <a id="selected" href="#Home" onclick="OnClickNavBarBttns(0)">Home</a>
+                        <a href="#About" onclick="OnClickNavBarBttns(1)">About</a>
+                        <a href="#Projects" onclick="OnClickNavBarBttns(2)">Projects</a>
+                        <a href="#Blogs" onclick="OnClickNavBarBttns(3)">Blogs</a>
+                        <a href="#Contact" onclick="OnClickNavBarBttns(4)">Contact</a>
                 </div>
                 <div class="HomeContainer">
                         <div class="HomeTextDiv">
                                 <h1>Hey, Myself Himanshu.</h1>
-                                                <h2>All Geeky about Game Development ||<br>
-                                                        Web Development || Software Development,<br></h2>
+                                <h2>All Geeky about Game Development ||<br>
+                                        Web Development || Software Development,<br></h2>
                         </div>
                         <div class="HomeSocialHandels">
                                 <a href="">
-                                        <img src="../Images/LinkId.png" alt="Linkedin">
+                                        <img src="../Images/S_mail.png" alt="Gmail">
                                 </a>
                                 <a href="">
-                                        <img src="../Images/blogger.png" alt="Blogger">
+                                        <img src="../Images/S_linkedin.png" alt="Linkedin">
                                 </a>
                                 <a href="">
-                                        <img src="../Images/youtube.png" alt="Gmail">
+                                        <img src="../Images/S_blogger.png" alt="Blogger">
                                 </a>
                                 <a href="">
-                                        <img src="../Images//twitter.png" alt="Twitter">
+                                        <img src="../Images/S_insta.png" alt="Instagram">
                                 </a>
                                 <a href="">
-                                        <img src="../Images/instagram.png" alt="Instagram">
+                                        <img src="../Images/S_twitter.png" alt="Twitter">
                                 </a>
+
                         </div>
-                      
+
                 </div>
 
         </div>
         <!--Start of About Section-->
-        <div id="About" class="Project_Sec">
-                <h1>Projects</h1>
-
-                <div class="row">
-
-                        <div class="Panel1" style="background-color: blueviolet">
-                                <div class="panelHeading">Capture In Your Brain</div>
-
-                                <div class="panelbodyMid">
-                                        <img style="width:100%; height: 100%;" src="../Images/Cature_in_your_brain.png"
-                                                alt="Tick_tack_toe">
-
-                                        <div class=ExpandBttn>know more</div>
-                                </div>
-                                <div class="panelbodyBttm">
-                                        <p>Remember the images before time runs out, and get ready to guess the
-                                                correct image.</p>
-                                </div>
-                        </div>
-                        <div class="Panel2" style="background-color: chartreuse">
-                                <div class="panelHeading">Jigsaw Puzzle</div>
-
-                                <div class="panelbody">
-
-                                        <span class="mytext"> Assemble the Jigsaw to make complete the puzzle </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;"
-                                                        src="../Images/Jigsaw_Thumbnail.png" alt="Tick_tack_toe">
-                                        </span>
-                                </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
+        <div id="About" class="About_Sec">
+                <h1>About</h1>
 
 
-
-
-
-                        </div>
-                        <div class="Panel1" style="  background-color: orange">
-                                <div class="panelHeading">Tick Tack Toe</div>
-
-                                <div class="panelbody">
-
-                                        <span class="mytext"> Remember the images before time runs out, and get ready to
-                                                guess the
-                                                correct image. </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;" src="../Images/tictactoe.png"
-                                                        alt="Tick_tack_toe">
-                                        </span>
-                                </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
-
-
-
-
-
-                        </div>
-                        <div class="Panel2" style="  background-color:rgb(33, 150, 243)">
-                                <div class="panelHeading">Train Simulation</div>
-
-                                <div class="panelbody">
-
-                                        <span class="mytext"> Remember the images before time runs out, and get ready to
-                                                guess the
-                                                correct image. </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;" src="../Images/tictactoe.png"
-                                                        alt="Tick_tack_toe">
-                                        </span>
-                                </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
-
-
-
-
-
-                        </div>
-                        <div class="Panel1" style="background-color: yellow">
-                                <div class="panelHeading">CnCre8</div>
-
-                                <div class="panelbody">
-
-                                        <span class="mytext"> Remember the images before time runs out, and get ready to
-                                                guess the
-                                                correct image. </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;" src="../Images/tictactoe.png"
-                                                        alt="Tick_tack_toe">
-                                        </span>
-                                </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
-
-
-
-
-
-                        </div>
-                        <div class="Panel2" style="background-color:saddlebrown">
-                                <div class="panelHeading">TellaTello</div>
-
-                                <div class="panelbody">
-
-                                        <span class="mytext"> Remember the images before time runs out, and get ready to
-                                                guess the
-                                                correct image. </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;" src="../Images/tictactoe.png"
-                                                        alt="Tick_tack_toe">
-                                        </span>
-                                </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
-
-
-
-
-
-                        </div>
-
-                </div>
         </div>
         <!--Start of Projects Section-->
         <div id="Projects" class="Project_Sec">
-                <h1>Projects</h1>
+                <h1 style="
+                text-align: center;
+                margin-top: 5%;">Projects</h1>
 
                 <div class="row">
 
                         <div class="Panel1" style="background-color: blueviolet">
-                                <div class="panelHeading">Capture In Your Brain</div>
+                                <div class="panelHeading">
+                                        <h3 >Capture In Your Brain</h3></div>
 
                                 <div class="panelbodyMid">
                                         <img style="width:100%; height: 100%;" src="../Images/Cature_in_your_brain.png"
                                                 alt="Tick_tack_toe">
 
-                                        <div class=ExpandBttn>know more</div>
+                                        <div class=ExpandBttn>
+                                                <h5>Know More</h5>
+                                        </div>
+                                        
                                 </div>
-                                <div class="panelbodyBttm">
-                                        <p>Remember the images before time runs out, and get ready to guess the
-                                                correct image.</p>
-                                </div>
+                               
                         </div>
-                        <div class="Panel2" style="background-color: chartreuse">
-                                <div class="panelHeading">Jigsaw Puzzle</div>
 
-                                <div class="panelbody">
+                        <div class="Panel2" style="background-color: blueviolet">
+                                <div class="panelHeading">
+                                        <h3>Capture In Your Brain</h3></div>
 
-                                        <span class="mytext"> Assemble the Jigsaw to make complete the puzzle </span>
-                                        <span style="display: none; width: 100%; height: 100%;" class="myimage">
-                                                <img style="width:100%; height: 100%;"
-                                                        src="../Images/Jigsaw_Thumbnail.png" alt="Tick_tack_toe">
-                                        </span>
+                                <div class="panelbodyMid">
+                                        <img style="width:100%; height: 100%;" src="../Images/Cature_in_your_brain.png"
+                                                alt="Tick_tack_toe">
+
+                                        <div class=ExpandBttn>
+                                                <h5>Know More</h5>
+                                        </div>
                                 </div>
-                                <div style="display: none" class="myimage" class="panelfooter">Download</div>
-
-
-
-
-
+                               
                         </div>
-                        <div class="Panel1" style="  background-color: orange">
+                      
+                        </div>
+                        <!-- <div class="Panel1" style="  background-color: orange">
                                 <div class="panelHeading">Tick Tack Toe</div>
 
                                 <div class="panelbody">
@@ -282,12 +174,12 @@
 
 
 
-                        </div>
+                        </div> -->
 
                 </div>
         </div>
         <!--Start of Blogging Section-->
-        <div id="Blogs">
+        <div id="Blogs" class="Blogs_Sec">
                 <h1>Blogs</h1>
                 <div class="mySlides">
                         <div class="row">
@@ -301,48 +193,31 @@
 
 
                 </div>
+                <div style="text-align: center">
+                        <span class="circle demo" onclick="currentDiv(1)"></span>
+                        <span class="circle demo" onclick="currentDiv(2)"></span>
+                </div>
         </div>
-        <div style="text-align: center">
-                <span class="circle demo" onclick="currentDiv(1)"></span>
-                <span class="circle demo" onclick="currentDiv(2)"></span>
-        </div>
-        <!--Start of Technical Section-->
-        <div>
-                <h1>Technologies</h1>
-                <div>My Technolofies Known</div>
-        </div>
+
         <!--Start of Contact us Section-->
-        <div id="Contact">
+        <div id="Contact" class="Contact_Sec">
                 <h1>Contact Me</h1>
 
                 <div>Contact Details</div>
         </div>
-        </div>
-        <!--Start of BottomPanel Section-->
-        <div class="BottomPanel">
-                <div class="socialLinksImages">
-                        <a href="">
-                                <img src="../Images/LinkId.png" alt="Linkin">
-                        </a>
-                        <a href="">
-                                <img src="../Images/blogger.png" alt="Blogger">
-                        </a>
-                        <a href="">
-                                <img src="../Images/youtube.png" alt="YouTube">
-                        </a>
-                        <a href="">
-                                <img src="../Images/fb.png" alt="FaceBook">
-                        </a>
-                        <a href="">
-                                <img src="../Images//twitter.png" alt="Twitter">
-                        </a>
-                        <a href="">
-                                <img src="../Images/instagram.png" alt="Instagram">
-                        </a>
-                </div>
-        </div>
-        <script>
 
+        <script>
+                function OnClickNavBarBttns(n) {
+                        var elements = document.querySelector(".HeaderBar").querySelectorAll("a");
+                        for (let i = 0; i < elements.length; i++) {
+                                if (i == n)
+                                        elements[n].id = "selected";
+                                else
+                                        elements[i].id = "";
+                        }
+
+
+                }
                 function Mouse_out(n) {
                         var x = document.getElementsByClassName("mytext");
 
