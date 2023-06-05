@@ -1,264 +1,675 @@
 <html>
 
 <head>
-        <link rel="stylesheet" type="text/css" href="../StyleSheets/StyleSheet1.css">
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="../StyleSheets/main.css">
+        <link rel="stylesheet" type="text/css" href="../StyleSheets/pageanimation.css">  
+        </head>
 <title>"First Website Test"</title>
-<!---file:///D:/Documents/Manu/PortFolio/Himanshu-Gupta159.github.io/HtmlPages/Home.html-->
 
 <body>
-
-        <!--Start of Banner Section-->
-        <!-- TODO
-        SocialHandles icon are stretching.
-        SocialHandles icons outline not matching.
-        -->
-        <div class="HeaderBar">
-                <a id="selected" href="#Home" onclick="OnClickNavBarBttns(0)">Home</a>
-                <a href="#Projects" onclick="OnClickNavBarBttns(1)">Projects</a>
-                <a href="https://unfragilecoding.blogspot.com/?m=1" target="_blank" rel="noopener noreferrer">Blogs</a>
-                <a href="#Education" onclick="OnClickNavBarBttns(3)">Curriculum</a>
-                <a href="#Contact" onclick="OnClickNavBarBttns(4)">Contact</a>
+        <div class="backgroundLayer">
         </div>
-
-        <div id="Home" class="HomeContainerParent">
-                <div class="HomeContainer">
-                        <div class="HomeTextDiv ">
-                                <h1>Himanshu Gupta</h1>
-                                <h2>Software Engineer</h2>
-                                <h3>I am a diligent senior software engineer with years of<br>
-                                        experience in business applications. I'm eager to join<br>
-                                        your crew to build out-of-the-box solutions for regional<br>
-                                        clients. I am skilled in developing plans, managing<br>
-                                        projects, and user documentation.</h3>
+        <div class="pageBackroundLayer">
+                <div class="headerArea">
+                        <img src="../Images/TeamMembers/himanshu.jpeg">
+                        <h2>Himanshu Gupta</h2>
+                        <h3>Software Engineer</h3>
+                        <div class="socialHandles">
+                                <a href="https://mail.google.com/mail/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/himanshu-gupta13/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi-linkedin"></i>
+                                </a>
+                                <a href="https://instagram.com/unfragilegaming" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="bi-instagram"></i>
+                                </a>
+                                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi-twitter"></i>
+                                </a>
                         </div>
-                        <div>
-                                <img src="../Images/face.jpg" alt="" height="500" width="500">
-                        </div>
-                        <div class="HomeSocialHandels ">
-                                <a href="">
-                                        <img src="../Images/S_mail.png" alt="Gmail">
-                                </a>
-                                <a href="">
-                                        <img src="../Images/S_linkedin.png" alt="Linkedin">
-                                </a>
-                                <a href="">
-                                        <img src="../Images/S_blogger.png" alt="Blogger">
-                                </a>
-                                <a href="">
-                                        <img src="../Images/S_insta.png" alt="Instagram">
-                                </a>
-                                <a href="">
-                                        <img src="../Images/S_twitter.png" alt="Twitter">
-                                </a>
-
-                        </div>
-
+                        <h5>himanshu-gupta159@gmail.com</h5>
+                        <button class="download-resume">Download CV</button>
+                        <h6 class="headerArealas">2023 All rights reserved.</h6>
                 </div>
-        </div>
-        <!--Start of Projects Section-->
-        <div id="Projects" class="ProjectComtainerParent">
-                <div class="Project_Sec">
-                        <h1>Sample Work</h1>
-
-                        <div class="GridContainer">
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
+                <div class="contentArea">
+                        <!--About-->
+                        <div class="aboutDiv" style="display: block;">
+                                <div class="aboutArea">
+                                        <div class="aboutme-info">
+                                                <h4></h4>
+                                                <h2>Himanshu Gupta</h2>
+                                                <p>I am a skilled and experienced software engineer
+                                                  with five years of professional experience
+                                                  in the field. Throughout my career,
+                                                  I have had the opportunity to work on
+                                                  various technologies and projects,
+                                                  ranging from game development to website creation
+                                                  and the development of WPF and MAUI applications.
+                                                  As a senior engineer, I have not only contributed to the
+                                                  technical aspects of my work but also taken on leadership responsibilities,
+                                                  including managing teams and effectively communicating with both colleagues
+                                                  and clients to ensure that project requirements are met.</p>
                                         </div>
-
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
-                                                </div>
-
-                                        </div>
-
-                                </div>
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
-                                        </div>
-
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
-                                                </div>
-
+                                        <div class="image-mask">
+                                                <img src="../Images/TeamMembers/cover-image.jpeg" alt="" height="500"
+                                                        width="500">
                                         </div>
 
                                 </div>
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
-                                        </div>
+                                <h3>What I do</h3>
+                                <div class="whatIDoGrid">
 
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
+                                        <div>
+                                                <i class="bi-controller"></i>
+                                                <h3>Game Development-Unity</h3>
+                                                <p>I have honed my skills in developing 2D and 3D games using the Unity engine. I have gone beyond traditional game development by incorporating advanced functionalities such as multiplayer capabilities, utilizing Photon for real-time communication and enabling players to engage in interactive chat. Additionally, I have integrated Playfab for effective leaderboard management and user base administration, ensuring a seamless gaming experience for players.</p>
+                                        </div>
+                                        <div>
+                                                <i class="bi-code-square"></i>
+                                                <h3>WPF & App Development- .Net</h3>
+                                                <p> have gained significant experience in WPF (Windows Presentation Foundation) and app development using .NET technologies. I have successfully created visually appealing and interactive desktop applications using WPF, leveraging its rich set of controls and data binding capabilities. Additionally, I have developed cross-platform applications using .NET frameworks like MAUI, allowing for the creation of mobile apps that run seamlessly on different platforms.</p>
+                                        </div>
+                                        <div>
+                                                <i class="bi-headset-vr"></i>
+                                                <h3>Simulation AR/VR-Unity</h3>
+                                                <p>I have specialized in simulation development using Unity for AR (Augmented Reality) and VR (Virtual Reality) experiences. Leveraging Unity's powerful features, I have created immersive and interactive simulations that engage users in AR and VR environments. I have successfully integrated AR/VR devices and technologies, implemented realistic physics simulations, and developed interactive user interfaces to enhance the overall experience. With a deep understanding of Unity's capabilities, I have delivered cutting-edge AR/VR simulations that have been used for training, education, and entertainment purposes.</p>
+                                        </div>
+                                        <div>
+                                                <i class="bi-window-fullscreen"></i>
+                                                <h3>Web Design</h3>
+                                                <p>I possess strong skills in web design, particularly in HTML, CSS, and JavaScript. I have a deep understanding of these languages and their integration to create visually appealing and interactive websites. Additionally, I am proficient in JSON parsing, enabling seamless data exchange and manipulation between web applications.</p>
+                                        </div>
+                                </div>
+                                <h3>Worked with</h3>
+                                <div class="workedWithDiv">
+                                        <ul>
+                                                <li>
+                                                        <img src="../Images/Worked with/ticketmaster.jpeg" alt="">
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/Worked with/komponion.jpeg" alt="">
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/Worked with/advantal.jpeg" alt="">
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/Worked with/splat.jpeg" alt="">
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/Worked with/ananta.jpeg" alt="">
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/Worked with/abhiwan.jpeg" alt="">
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <!--Resume-->
+                        <div class="resumeDiv" style="display: none;">
+                                <h1 class="heading1">Resume</h1>
+                                <h4 class="subheading1">5 Years of Experience</h4>
+                                <div class="resumeDiv-cont1">
+                                        <div class="expDiv">
+                                                <h3 class="headingDiv">Experience</h3>
+                                                <div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">May 2022 - Present</h4>
+                                                                        <h5 class="subheading2">Ticketmaster</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">
+                                                                                Engineer 3 ||3D Tech||</h3>
+                                                                        <p class="subheading2">As a Engineer 3 in 3D tech I develop internal tools using .NET that significantly improves the production cycle. This tool automates various manual processes, streamlining workflow and reducing errors. With its intuitive interface and robust functionality, the tool has enhanced productivity and efficiency within the organization.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">May 2021 - Apr 2022</h4>
+                                                                        <h5 class="subheading2">KOMPANIONS</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">Unity Developer</h3>
+                                                                        <p class="subheading2">As a Unity developer, I have created AR and VR simulations for educational materials. These immersive experiences have been designed to enhance learning by providing interactive and engaging content. Leveraging Unity's capabilities, I have developed simulations that allow students to explore complex concepts and environments, making education more interactive and enjoyable.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">Apr 2020 - Mar 2021</h4>
+                                                                        <h5 class="subheading2">Advantal Technologies
+                                                                        </h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">
+                                                                                Unity Developer</h3>
+                                                                        <p class="subheading2">As a Unity developer, I have designed and developed a house porch customization app. This app utilizes Unity's capabilities to provide users with an interactive experience, allowing them to customize and visualize different porch designs for their homes. With a user-friendly interface, the app enables users to select various materials, textures, colors, and furniture options, providing a realistic preview of the customized porch.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">Dec 2019 - Feb 2020</h4>
+                                                                        <h5 class="subheading2">Splat Studio</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">Unity Developer</h3>
+                                                                        <p class="subheading2">As an experienced developer, I have successfully created immersive AR/VR experiences tailored for displays and events. Leveraging the capabilities of AR/VR technologies, I design interactive and visually captivating experiences that engage attendees and leave a lasting impression. Whether it's virtual product showcases, interactive exhibitions, or augmented reality games, I create customized solutions that enhance engagement, entertainment, and information delivery at displays and events.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">Jan 2018 - Sep 2019</h4>
+                                                                        <h5 class="subheading2">Ananta Games</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">Unity Developer</h3>
+                                                                        <p class="subheading2">Worked as a Game developer to develop 2D/3D games using Unity. Extensively implemented animation,VFX and done level designing to bring characters, environments, and gameplay to life. Also showed Leadership skills by managing team and collobrated with other team members and clients to met project requirements. </p>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <div class="white-space-20"></div>
+                                                <h3 class="headingDiv">Education</h3>
+                                                <div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">2016-2019</h4>
+                                                                        <h5 class="subheading2">Bharati Vidyapeeth</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">MCA</h3>
+                                                                        <p class="subheading2">I hold an MCA degree from Bharati Vidyapeeth University, equipping me with advanced skills in programming, software development, and database management. With a strong academic background and a passion for technology, I am well-prepared to contribute to challenging projects and drive innovation in the field of computer science.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">2013-2016</h4>
+                                                                        <h5 class="subheading2">SCCTM</h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">BCA</h3>
+                                                                        <p class="subheading2">As a BCA graduate from XYZ University, I have developed a strong foundation in key technologies including DBMS, programming languages, data structures, algorithms, and Linux. With this expertise, I am well-equipped to contribute to software development and handle complex product development tasks efficiently.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">2011-2013</h4>
+                                                                        <h5 class="subheading2">Abhinav Public School
+                                                                        </h5>
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">Secondary Education</h3>
+                                                                        <p class="subheading2">I have completed my 12th education from CBSE, acquiring a comprehensive academic foundation. This educational journey has equipped me with the necessary knowledge and skills to pursue higher studies or embark on a professional career in a wide range of fields.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="exp-list-item">
+                                                                <div class="exp-list-item-left">
+                                                                        <h4 class="heading2">2000-2011</h4>
+                                                                        <h5 class="subheading2">Dayanand Public School
+                                                                        </h5>
+
+                                                                </div>
+                                                                <div class="exp-list-item-mid"></div>
+                                                                <div class="exp-list-item-right">
+                                                                        <h3 class="heading2">Primary Education</h3>
+                                                                        <p class="subheading2">
+                                                                                I completed my 10th-grade education from CBSE Board, acquiring a well-rounded foundation in various subjects to pursue higher studies and personal growth. </p>
+                                                                </div>
+                                                        </div>
+
                                                 </div>
 
                                         </div>
+                                        <div class="skillsDiv">
+                                                <h3 class="headingDiv">Soft Skills</h3>
 
-                                </div>
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
-                                        </div>
+                                                <div>
+                                                        <ul class="soft-skills-list">
 
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
+                                                                <li>Problem Solving</li>
+                                                                <li>Communication</li>
+                                                                <li>Self Learning</li>
+                                                                <li>Resaerch & Development</li>
+                                                                <li>Team Player</li>
+                                                                <li>Accountability</li>
+
+                                                        </ul>
+                                                </div>
+                                                <div class="white-space-20"></div>
+                                                <h3 class="headingDiv">Coding Skills</h3>
+                                                <div>
+                                                        <ul class="hard-skills-list">
+
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>C#</h4>
+                                                                                <h6>5 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per1">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>JSON</h4>
+                                                                                <h6>5 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per1">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>C++</h4>
+                                                                                <h6>1 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per5">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>HTML/CSS</h4>
+                                                                                <h6>2 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per4">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>MaxScript</h4>
+                                                                                <h6>1 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per5">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+
+                                                        </ul>
+                                                </div>
+                                                <div class="white-space-20"></div>
+                                                <h3 class="headingDiv">Platforms Known</h3>
+                                                <div>
+                                                        <ul class="hard-skills-list">
+
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>Unity</h4>
+                                                                                <h6>4 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per2">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>Unreal</h4>
+                                                                                <h6>1 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per5">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>PlayFab</h4>
+                                                                                <h6>2 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per2">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>Visual Studio</h4>
+                                                                                <h6>5 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per1">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                                <li>
+                                                                        <div>
+                                                                                <h4>3ds Max</h4>
+                                                                                <h6>1 Yrs</h6>
+
+                                                                        </div>
+                                                                        <div class="skillBar">
+                                                                                <div
+                                                                                        class="skillBar-fill skillBar-fill-per5">
+                                                                                </div>
+                                                                        </div>
+                                                                </li>
+                                                        </ul>
                                                 </div>
 
                                         </div>
+                                </div>
+                                <div class="awardsDiv">
+                                        <h3 class="headingDiv"> Award and recognition</h3>
+                                        <ul>
+                                                <li>
+                                                        <img src="../Images/Awards/award_sept.jpeg">
+
+                                                        <div>
+                                                                <h4>Ticketmaster</h4>
+                                                                <h5>Quick Learner</h5>
+                                                                <h6>20 September 2022</h6>
+                                                        </div>
+                                                </li>
+                                        </ul>
 
                                 </div>
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
-                                        </div>
 
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
-                                                </div>
-
-                                        </div>
-
-                                </div>
-                                <div class="GridItems">
-                                        <div class="panelHeading">
-                                                <h3>Capture In Your Brain</h3>
-                                        </div>
-
-                                        <div class="panelbodyMid">
-                                                <img src="../Images/Cature_in_your_brain.png">
-                                                <div class=ExpandBttn>
-                                                        <h5>Know More</h5>
-                                                </div>
-
-                                        </div>
-
-                                </div>
 
                         </div>
+                        <!--Project-->
+                        <div class="projectsDiv" style="display: none;">
+                                <h1 class="heading1">Portfolio</h1>
+                                <h4 class="subheading1">My Work</h4>
+                                <div class="portfolio-content-outer">
+                                        <div class="filterDiv">
+                                                <span>All</span>
+                                                <span>Games</span>
+                                                <span>Simulation</span>
+                                                <span>Apps</span>
+                                        </div>
+                                        <ul class="portfolio-grid">
+                                                <li>
 
+                                                        <a onclick=" OnClickProjectsBttns('Tic Tac Toe')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/tictactoe.png" alt="">
+                                                        </a>
 
-                </div>
-        </div>
+                                                        <h4 class="project-top-text">UnfragileCoding</h4>
+                                                        <h3 class="project-bootom-text">Tic Tac Toe</h3>
+                                                </li>
+                                                <li>
+                                                        <a
+                                                                onclick=" OnClickProjectsBttns('Jigsaw Puzzle')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/Jigsaw_Thumbnail.png"
+                                                                        alt="">
+                                                        </a>
 
+                                                        <h4 class="project-top-text">UnfragileCoding</h4>
+                                                        <h3 class="project-bootom-text">Jigsaw Puzzle</h3>
+                                                </li>
+                                                <li class="item3">
+                                                        <a onclick=" OnClickProjectsBttns('TellaTelo')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/tellatello/ref1.jpeg" alt="">
+                                                        </a>
+                                                        <h4 class="project-top-text">Ananta Games</h4>
+                                                        <h3 class="project-bootom-text">TellaTelo</h3>
+                                                </li>
+                                                <li>
 
-        <div id="Education" class="EducationComtainerParent">
-                <!--Start of Education Section-->
-                <div class="EducationContainer">
-                        <h1>Experience<br>& Education</h1>
-                        <div class="ScrollView">
-                                <div class="EducationGridContainer">
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
-                                        <h2>2005</h2>
-                                        <h2>Info</h2>
+                                                        <a onclick=" OnClickProjectsBttns('Capture in your Brain')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/Cature_in_your_brain.png"
+                                                                        alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">UnfragileCoding</h4>
+                                                        <h3 class="project-bootom-text">Capture in your Brain</h3>
+                                                </li>
+                                                <li>
+                                                        <a onclick=" OnClickProjectsBttns('Spin the Wheel')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/spinwheel/ref1.png" alt="">
+                                                        </a>
+                                                        <h4 class="project-top-text">Ananta Games</h4>
+                                                        <h3 class="project-bootom-text">Spin the Wheel</h3>
+                                                </li>
+                                                <li class="item3">
+                                                        <a onclick=" OnClickProjectsBttns('Train Simulation')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/trainSim/ref1.jpeg" alt="">
+                                                        </a>
+                                                        <h4 class="project-top-text">Ananta Games</h4>
+                                                        <h3 class="project-bootom-text">Train Simulation</h3>
+                                                </li>
+                                                <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Swapper')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/default.jpg" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">UnfragileCoding</h4>
+                                                        <h3 class="project-bootom-text">Swapper</h3>
+                                                </li> 
+                                                 <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Workout Buddy')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/default.jpg" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">Unfragile Coding</h4>
+                                                        <h3 class="project-bootom-text">Workout Buddy</h3>
+                                                </li>
+                                                <li class="item3">
+
+                                                        <a onclick=" OnClickProjectsBttns('CnCre8')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/CnCre8/ref1.webp" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">Advantal Technologies</h4>
+                                                        <h3 class="project-bootom-text">CnCre8</h3>
+                                                </li>
+                                                <li class="item3">
+
+                                                        <a  onclick=" OnClickProjectsBttns('Lab Assistant')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/lab_ass/ref1.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">KOMPANIONS</h4>
+                                                        <h3 class="project-bootom-text">Lab Assistant</h3>
+                                                </li>
+                                                <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Internal Production Studio')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/no_data.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">Ticketmaster</h4>
+                                                        <h3 class="project-bootom-text">Internal Production Studio</h3>
+                                                </li>
+                                                <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Unreal Engine')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/no_data.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">Ticketmaster</h4>
+                                                        <h3 class="project-bootom-text">Unreal Engine</h3>
+                                                </li>
+                                                <li class="item3">
+
+                                                        <a  onclick=" OnClickProjectsBttns('IXR Lab')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/IXR/ref1.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">KOMPANIONS</h4>
+                                                        <h3 class="project-bootom-text">IXR Lab</h3>
+                                                </li>
+                                                <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Sincity')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/no_data.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">KOMPANIONS</h4>
+                                                        <h3 class="project-bootom-text">Sincity</h3>
+                                                </li>
+                                                <li>
+
+                                                        <a onclick=" OnClickProjectsBttns('Eduction Material')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/no_data.png" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">KOMPANIONS</h4>
+                                                        <h3 class="project-bootom-text">Eduction Material</h3>
+                                                </li>
+                                                <li class="item3">
+
+                                                        <a onclick=" OnClickProjectsBttns('Randomizer Games')">
+                                                                <img class="scale-img"
+                                                                        src="..//Images/Projects/randomizer/ref1.jpg" alt="">
+                                                        </a>
+
+                                                        <h4 class="project-top-text">Abhinav Technologies</h4>
+                                                        <h3 class="project-bootom-text">Randomizer Games</h3>
+                                                </li>
+                                              
+                                              
+                                        </ul>
                                 </div>
-
                         </div>
-                        <!--  -->
                 </div>
-        </div>
-
-        <div id="Contact" class="ContactContainerParent">
-                <!--Start of Contact us Section-->
-                <div class="Contact_Sec">
-                        <h1>Contact Me</h1>
-
-                        <div>Contact Details</div>
+                <div class="headerBar">
+                        <a class="bi-person headerBar-a active" onclick="OnClickNavBarBttns(0)">
+                        </a>
+                        <a class="bi-file-earmark-text headerBar-a" onclick="OnClickNavBarBttns(1)">
+                        </a>
+                        <a class="bi-pip headerBar-a" onclick="OnClickNavBarBttns(2)">
+                        </a>
+                        <a class="bi-stickies headerBar-a" href="https://unfragilecoding.blogspot.com/?m=1"
+                                target="_blank" rel="noopener noreferrer">
+                        </a>
                 </div>
+
+
         </div>
-
-        <script>
-                function OnClickNavBarBttns(n) {
-                        var elements = document.querySelector(".HeaderBar").querySelectorAll("a");
-                        for (let i = 0; i < elements.length; i++) {
-                                if (i == n)
-                                        elements[n].id = "selected";
-                                else
-                                        elements[i].id = "";
-                        }
-
-
-                }
-                function Mouse_out(n) {
-                        var x = document.getElementsByClassName("mytext");
-
-
-                        x[n].style.display = "block";
-
-                        var y = document.getElementsByClassName("myimage");
-
-                        for (i = n * 2; i < (n * 2) + 2; i++) {
-                                y[i].style.display = "none";
-                        }
-
-                }
-                function currentDiv(n) {
-                        var x = document.getElementsByClassName("mytext");
-
-
-                        x[n].style.display = "none";
-
-                        var y = document.getElementsByClassName("myimage");
-
-                        for (i = n * 2; i < (n * 2) + 2; i++) {
-                                y[i].style.display = "block";
-                        }
-
-                }
-                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                        anchor.addEventListener("click", function (e) {
-                                e.preventDefault();
-                                document.querySelector(this.getAttribute("href")).scrollIntoView({
-                                        behavior: "smooth"
-                                });
-                        });
-                });
+        <div class="portfolio-body-not-active">
+                <div class="portfolio-navigation">
+                        <a onclick="OnClickChangeProject('previous')">&lt</a>
+                        <a onclick="OnClickChangeProject('next')">&gt</a>
+                        <a onclick="ClosePortfolioWindox()">x</a>
+                </div>
+                <div class="portfolio-container">
+                        <h1 class="portfolio-heading">Tellatelo</h1>
+                        <div class="portfolio-content">
+                                <div class="image-slider-cont">
+                                        <button>prev</button>
+                                        <img src="../Images/Projects/tellatelo.png">
+                                        <button>next</button>
+                                </div>
+                                <div class="item-mid"></div>
+                                <div class="details-cont">
+                                        <h3 class="headingDiv">Description</h3>
+                                        <div class="description">
+                                                <h4 id="p_Cname"><i class="bi-globe2"></i>companyName</h4>
+                                                <h4 id="p_Date"><i class="bi-calendar-event"></i>date</h4>
+                                                <h4 id="p_WkdAs"><i class="bi-person"></i>post</h4>
+                                                <p id="p_details"></p>
+                                        </div>
+                                        <div class="white-space-20"></div>
+                                        <h3 class="headingDiv">Technology</h3>
+                                        <ul class="portfolio-skills">
+                                        </ul>
+                                        <div class="white-space-20"></div>
+                                        <h3 id="OtherTeamHead" class="headingDiv">Other Team Members</h3>
+                                        <ul class="team-list">
+                                                <li>
+                                                        <img src="../Images/TeamMembers/claude.jpeg">
+                                                        <h5>Claude Vogel </h5>
+                                                        <h6>Client/Backend Developer</h6>
+        
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/TeamMembers/sandeep.jpeg">
+                                                        <h5>Sandeep Mann</h5>
+                                                        <h6>Art Director</h6>
+        
+                                                </li>
+                                                <li>
+                                                        <img src="../Images/TeamMembers/saif.jpeg">
+                                                        <h5>Saif Ali</h5>
+                                                        <h6>Senior Art Designer</h6>
+        
+                                                </li>
+        
+                                                <li>
+                                                        <img src="../Images/TeamMembers/romi.jpeg">
+                                                        <h5>Romi Kumar</h5>
+                                                        <h6>Unity developer</h6>
+        
+                                                </li>
+        
+                                        </ul>
+        
+                                </div>
+                        </div>
+                </div>
+               
+        </div>
+        <script src="../JavaScript/main.js">
+                
         </script>
+         <script src="../JavaScript/ProjectData.js"></script>
 
 </body>
 
 </html>
 
-<!-- <div class="mySlides">
-        <div class="row">
-
-        </div>
-</div>
-<div class="mySlides">
-        <div class="row ">
-
-        </div>
-
-
-</div>
-<div style="text-align: center">
-        <span class="circle demo" onclick="currentDiv(1)"></span>
-        <span class="circle demo" onclick="currentDiv(2)"></span>
-</div> -->
+<!-- TODO
+1. Download Cv on Bttn Click
+3. Project img slider
+6. save project back state
+7. update content
+8. portfolio filter 
+9. Responsive site-->
