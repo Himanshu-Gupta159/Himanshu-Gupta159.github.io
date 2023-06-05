@@ -1,6 +1,6 @@
 const Projects= [
         {
-            "ProjetName": "TellaTello",
+            "ProjetName": "TellaTelo",
             "CompanyName": "Ananta Games",
             "P_Img":[
                 "../Images/Projects/tellatello/ref1.jpeg",
@@ -77,7 +77,7 @@ const Projects= [
             "TeamMembers": null
         },
         {
-            "ProjetName": "Capture In Your Brain",
+            "ProjetName": "Capture in your Brain",
             "CompanyName": "UnfragileCoding",
             "P_Img":[
                 "../Images/Projects/Cature_in_your_brain.png"
