@@ -161,7 +161,7 @@ const Projects= [
                 "../Images/Projects/lab_ass/ref1.png",
                 "../Images/Projects/lab_ass/ref2.png",
                 "../Images/Projects/lab_ass/ref3.png",
-                "../Images/Projects/lab_ass/ref3.png"
+                "../Images/Projects/lab_ass/ref4.png"
             ],
             "Date": "13 August 2021",
             "Position": "Unity Developer",

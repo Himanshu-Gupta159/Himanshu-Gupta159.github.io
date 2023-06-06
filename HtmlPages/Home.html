@@ -412,13 +412,13 @@
                                 <h4 class="subheading1">My Work</h4>
                                 <div class="portfolio-content-outer">
                                         <div class="filterDiv">
-                                                <span>All</span>
-                                                <span>Games</span>
-                                                <span>Simulation</span>
-                                                <span>Apps</span>
+                                                <a href="#all" onclick="FilterProjects('all')">All</a>
+                                                <a href="#games" onclick="FilterProjects('games')">Games</a>
+                                                <a href="#simulation" onclick="FilterProjects('simulation')">Simulation</a>
+                                                <a href="#apps" onclick="FilterProjects('apps')">Apps</a>
                                         </div>
                                         <ul class="portfolio-grid">
-                                                <li>
+                                                <li id="games" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Tic Tac Toe')">
                                                                 <img class="scale-img"
@@ -428,7 +428,7 @@
                                                         <h4 class="project-top-text">UnfragileCoding</h4>
                                                         <h3 class="project-bootom-text">Tic Tac Toe</h3>
                                                 </li>
-                                                <li>
+                                                <li id="games" style="display: block;">
                                                         <a
                                                                 onclick=" OnClickProjectsBttns('Jigsaw Puzzle')">
                                                                 <img class="scale-img"
@@ -439,7 +439,7 @@
                                                         <h4 class="project-top-text">UnfragileCoding</h4>
                                                         <h3 class="project-bootom-text">Jigsaw Puzzle</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="games" style="display: block;" class="item3">
                                                         <a onclick=" OnClickProjectsBttns('TellaTelo')">
                                                                 <img class="scale-img"
                                                                         src="..//Images/Projects/tellatello/ref1.jpeg" alt="">
@@ -447,7 +447,7 @@
                                                         <h4 class="project-top-text">Ananta Games</h4>
                                                         <h3 class="project-bootom-text">TellaTelo</h3>
                                                 </li>
-                                                <li>
+                                                <li id="games" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Capture in your Brain')">
                                                                 <img class="scale-img"
@@ -458,7 +458,7 @@
                                                         <h4 class="project-top-text">UnfragileCoding</h4>
                                                         <h3 class="project-bootom-text">Capture in your Brain</h3>
                                                 </li>
-                                                <li>
+                                                <li id="games" style="display: block;">
                                                         <a onclick=" OnClickProjectsBttns('Spin the Wheel')">
                                                                 <img class="scale-img"
                                                                         src="..//Images/Projects/spinwheel/ref1.png" alt="">
@@ -466,7 +466,7 @@
                                                         <h4 class="project-top-text">Ananta Games</h4>
                                                         <h3 class="project-bootom-text">Spin the Wheel</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="games" style="display: block;" class="item3">
                                                         <a onclick=" OnClickProjectsBttns('Train Simulation')">
                                                                 <img class="scale-img"
                                                                         src="..//Images/Projects/trainSim/ref1.jpeg" alt="">
@@ -474,7 +474,7 @@
                                                         <h4 class="project-top-text">Ananta Games</h4>
                                                         <h3 class="project-bootom-text">Train Simulation</h3>
                                                 </li>
-                                                <li>
+                                                <li id="games" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Swapper-In Development')">
                                                                 <img class="scale-img"
@@ -484,7 +484,7 @@
                                                         <h4 class="project-top-text">UnfragileCoding</h4>
                                                         <h3 class="project-bootom-text">Swapper</h3>
                                                 </li> 
-                                                 <li>
+                                                 <li id="apps" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Workout Buddy')">
                                                                 <img class="scale-img"
@@ -494,7 +494,7 @@
                                                         <h4 class="project-top-text">Unfragile Coding</h4>
                                                         <h3 class="project-bootom-text">Workout Buddy</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="apps" style="display: block;" class="item3">
 
                                                         <a onclick=" OnClickProjectsBttns('CnCre8')">
                                                                 <img class="scale-img"
@@ -504,7 +504,7 @@
                                                         <h4 class="project-top-text">Advantal Technologies</h4>
                                                         <h3 class="project-bootom-text">CnCre8</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="simulation" style="display: block;" class="item3">
 
                                                         <a  onclick=" OnClickProjectsBttns('Lab Assistant')">
                                                                 <img class="scale-img"
@@ -514,7 +514,7 @@
                                                         <h4 class="project-top-text">KOMPANIONS</h4>
                                                         <h3 class="project-bootom-text">Lab Assistant</h3>
                                                 </li>
-                                                <li>
+                                                <li id="apps" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Internal Production Studio')">
                                                                 <img class="scale-img"
@@ -524,7 +524,7 @@
                                                         <h4 class="project-top-text">Ticketmaster</h4>
                                                         <h3 class="project-bootom-text">Internal Production Studio</h3>
                                                 </li>
-                                                <li>
+                                                <li id="apps" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Unreal Engine')">
                                                                 <img class="scale-img"
@@ -534,7 +534,7 @@
                                                         <h4 class="project-top-text">Ticketmaster</h4>
                                                         <h3 class="project-bootom-text">Unreal Engine</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="simulation" style="display: block;" class="item3">
 
                                                         <a  onclick=" OnClickProjectsBttns('IXR Labs')">
                                                                 <img class="scale-img"
@@ -544,7 +544,7 @@
                                                         <h4 class="project-top-text">KOMPANIONS</h4>
                                                         <h3 class="project-bootom-text">IXR Lab</h3>
                                                 </li>
-                                                <li>
+                                                <li id="simulation" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Sincity')">
                                                                 <img class="scale-img"
@@ -554,7 +554,7 @@
                                                         <h4 class="project-top-text">KOMPANIONS</h4>
                                                         <h3 class="project-bootom-text">Sincity</h3>
                                                 </li>
-                                                <li>
+                                                <li id="simulation" style="display: block;">
 
                                                         <a onclick=" OnClickProjectsBttns('Eduction Material')">
                                                                 <img class="scale-img"
@@ -564,7 +564,7 @@
                                                         <h4 class="project-top-text">KOMPANIONS</h4>
                                                         <h3 class="project-bootom-text">Eduction Material</h3>
                                                 </li>
-                                                <li class="item3">
+                                                <li id="games" style="display: block;" class="item3">
 
                                                         <a onclick=" OnClickProjectsBttns('Randomizer Games')">
                                                                 <img class="scale-img"
@@ -605,7 +605,7 @@
                         <div class="portfolio-content">
                                 <div class="image-slider-cont">
                                         <button>prev</button>
-                                        <img src="../Images/Projects/tellatelo.png">
+                                        <img onmouseenter="clearTimeout(slider_timeout)" onmouseout="showSlides()" src="../Images/Projects/tellatelo.png">
                                         <button>next</button>
                                 </div>
                                 <div class="item-mid"></div>
@@ -668,8 +668,4 @@
 
 <!-- TODO
 1. Download Cv on Bttn Click
-3. Project img slider
-6. save project back state
-7. update content
-8. portfolio filter 
 9. Responsive site-->

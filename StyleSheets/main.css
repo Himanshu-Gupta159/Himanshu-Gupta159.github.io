@@ -517,11 +517,14 @@ h6 {
 .filterDiv {
    display: flex;
    flex-direction: row;
-   opacity: .75;
+   
    gap: 1em;
 
 }
-
+.filterDiv>a{
+   text-decoration: none;
+   color: #fff;
+}
 .portfolio-grid {
    margin-top: 50px;
    display: grid;

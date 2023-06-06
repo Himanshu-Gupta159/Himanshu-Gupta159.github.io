@@ -82,11 +82,13 @@ function LoadProjectData(p_Name) {
         main_head.querySelector("#p_Date").lastChild.textContent = result.Date;
         main_head.querySelector("#p_WkdAs").lastChild.textContent = result.Position;
         main_head.querySelector("#p_details").innerHTML = result.Details;
-        if(result.P_Img==null)
-        main_head.querySelector(".image-slider-cont").querySelector("img").src = "";
+        if (result.P_Img == null)
+                main_head.querySelector(".image-slider-cont").querySelector("img").src = "";
         else
                 main_head.querySelector(".image-slider-cont").querySelector("img").src = result.P_Img[0];
         const skill_list = document.querySelector(".portfolio-skills");
+        clearTimeout(slider_timeout);
+        showSlides();
         while (skill_list.hasChildNodes()) {
                 skill_list.removeChild(skill_list.firstChild);
         }
@@ -117,5 +119,27 @@ function LoadProjectData(p_Name) {
                 team_person.appendChild(team_person_role);
                 main_head.querySelector(".team-list").appendChild(team_person);
         }
-
+      
 }
+function FilterProjects(f_name) {
+        var elements = document.querySelector(".portfolio-grid").querySelectorAll("li");
+        for (var i = 0; i < elements.length; i++) {
+                if (f_name == "all")
+                        elements[i].style.display = "block";
+                else if (elements[i].id == f_name)
+                        elements[i].style.display = "block";
+                else
+                        elements[i].style.display = "none";
+        }
+}
+var img_count=0;
+var slider_timeout;
+function showSlides() {           
+        if(img_count>Projects[selected_p_id].P_Img.length-1)
+        img_count=0;
+        var slider = document.querySelector(".image-slider-cont"). querySelector("img");
+        slider.src=Projects[selected_p_id].P_Img[img_count];
+        img_count++;
+        console.log(img_count);
+        slider_timeout= setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
