@@ -191,7 +191,7 @@ const Projects= [
                 "../Images/Projects/IXR/ref1.png",
                 "../Images/Projects/IXR/ref2.png",
                 "../Images/Projects/IXR/ref3.png",
-                "../Images/Projects/IXR/ref3.png"
+                "../Images/Projects/IXR/ref4.png"
             ],
             "Date": "2 May 2021",
             "Position": "Senior Unity Developer",
