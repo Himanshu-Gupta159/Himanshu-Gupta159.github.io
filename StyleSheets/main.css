@@ -954,6 +954,10 @@ opacity: 1;
    overflow-x: scroll;
    padding: 0%;
 }
+.team-list {
+   overflow-x: scroll;
+   padding: 0%;
+}
 .headerBar
 {
 position: absolute;
