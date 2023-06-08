@@ -919,6 +919,17 @@ opacity: 1;
    width: 80%;
   
 }
-
+.headerBar
+{
+position: absolute;
+left: 0;
+top: 0;
+height: auto;
+background-color: transparent;
+}
+.headerBar-hide
+{
+   display: none;
+}
 }
 

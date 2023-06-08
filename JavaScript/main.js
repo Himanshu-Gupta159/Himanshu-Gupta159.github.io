@@ -119,7 +119,7 @@ function LoadProjectData(p_Name) {
                 team_person.appendChild(team_person_role);
                 main_head.querySelector(".team-list").appendChild(team_person);
         }
-      
+
 }
 function FilterProjects(f_name) {
         var elements = document.querySelector(".portfolio-grid").querySelectorAll("li");
@@ -132,14 +132,14 @@ function FilterProjects(f_name) {
                         elements[i].style.display = "none";
         }
 }
-var img_count=0;
+var img_count = 0;
 var slider_timeout;
-function showSlides() {           
-        if(img_count>Projects[selected_p_id].P_Img.length-1)
-        img_count=0;
-        var slider = document.querySelector(".image-slider-cont"). querySelector("img");
-        slider.src=Projects[selected_p_id].P_Img[img_count];
+function showSlides() {
+        if (img_count > Projects[selected_p_id].P_Img.length - 1)
+                img_count = 0;
+        var slider = document.querySelector(".image-slider-cont").querySelector("img");
+        slider.src = Projects[selected_p_id].P_Img[img_count];
         img_count++;
         console.log(img_count);
-        slider_timeout= setTimeout(showSlides, 2000); // Change image every 2 seconds
-      }
+        slider_timeout = setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
