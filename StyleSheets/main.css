@@ -949,6 +949,11 @@ opacity: 1;
    width: 80%;
   
 }
+.portfolio-skills
+{
+   overflow-x: scroll;
+   padding: 0%;
+}
 .headerBar
 {
 position: absolute;
