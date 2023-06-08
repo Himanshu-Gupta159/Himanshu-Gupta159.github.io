@@ -13,7 +13,15 @@ function OnClickNavBarBttns(n) {
                 }
 
         }
-        var headerbarelements = document.querySelector(".headerBar").querySelectorAll("a");
+        var NavBarFound;
+        var navBar=document.querySelector(".headerBar")
+        var mobileNavBar=document.querySelector(".headerBar-active")
+        if(navBar!=null)
+        NavBarFound= navBar;
+        else
+        NavBarFound=  mobileNavBar;
+
+        var headerbarelements = NavBarFound.querySelectorAll("a");
         for (let i = 0; i < headerbarelements.length; i++) {
                 if (i != n)
                         headerbarelements[i].className = headerbarelements[i].className.replace(" active", "");
@@ -142,4 +150,21 @@ function showSlides() {
         img_count++;
         console.log(img_count);
         slider_timeout = setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+function ShowNavBar() {
+        var navBar = document.getElementById("#navBar");
+      
+        var i = navBar.querySelector("i");
+        if (i.classList.contains("bi-list")){
+                i.classList.replace("bi-list", "bi-chevron-right");3
+                navBar.classList.replace("headerBar","headerBar-active");
+        }
+                
+        else if (i.classList.contains("bi-chevron-right"))
+        {
+                i.classList.replace("bi-chevron-right", "bi-list");
+                navBar.classList.replace("headerBar-active","headerBar");
+        }
+                
+
 }

@@ -37,7 +37,7 @@
                                 </a>
                         </div>
                         <h5>himanshu-gupta159@gmail.com</h5>
-                        <button class="download-resume">Download CV</button>
+                        <a href="../Files/CV-himasnhu-unity-01032020.pdf" download class="download-resume">Download CV</a>
                         <h6 class="headerArealas">2023 All rights reserved.</h6>
                 </div>
                 <div class="contentArea">
@@ -697,7 +697,8 @@
                                 </div>
                         </div>
                 </div>
-                <div class="headerBar">
+                <div id="#navBar" class="headerBar" onclick="ShowNavBar()">
+                        <i class="bi-list"></i>
                         <a class="bi-person headerBar-a active" onclick="OnClickNavBarBttns(0)">
                         </a>
                         <a class="bi-file-earmark-text headerBar-a" onclick="OnClickNavBarBttns(1)">
@@ -779,35 +780,6 @@
 
         </script>
         <script src="../JavaScript/ProjectData.js"></script>
-        <script>
-                var navBar = document.querySelector(".headerBar");
-                var A_divScrolled = document.querySelector(".aboutDiv");
-                A_divScrolled.addEventListener("scroll", event => {
-                        if (A_divScrolled.scrollTop < 50)
-                                navBar.classList.remove("headerBar-hide");
-                        else
-                                navBar.classList.add("headerBar-hide");
-                }, { passive: true });
-                var R_divScrolled = document.querySelector(".resumeDiv");
-                R_divScrolled.addEventListener("scroll", event => {
-                        if (R_divScrolled.scrollTop < 50)
-                                navBar.classList.remove("headerBar-hide");
-                        else
-                                navBar.classList.add("headerBar-hide");
-                }, { passive: true });
-                var P_divScrolled = document.querySelector(".projectsDiv");
-                P_divScrolled.addEventListener("scroll", event => {
-                        if (P_divScrolled.scrollTop < 50)
-                                navBar.classList.remove("headerBar-hide");
-                        else
-                                navBar.classList.add("headerBar-hide");
-                }, { passive: true });
-
-        </script>
 </body>
 
 </html>
-
-<!-- TODO
-1. Download Cv on Bttn Click
-9. Responsive site-->

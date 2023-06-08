@@ -11,6 +11,7 @@ body {
 p{
    font-family: 'Poppins', sans-serif;
 font-size: small;
+text-align: justify;
 }
 
 ul {
@@ -135,7 +136,7 @@ ul {
    color: white;
    padding: 1.2em 2.8em;
    border: 2px solid white;
-
+text-decoration: none;
 }
 
 .download-resume:hover {
@@ -922,14 +923,47 @@ opacity: 1;
 .headerBar
 {
 position: absolute;
-left: 0;
-top: 0;
+right: 15px;
+top: 15px;
 height: auto;
-background-color: transparent;
+background-color: orangered;
+border-radius: 5px;
 }
-.headerBar-hide
+.headerBar-active
 {
-   display: none;
+position: absolute;
+right: 15px;
+top: 15px;
+height: auto;
+background-color: #333;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+gap: 1em;
+padding: 15px 5px;
+}
+
+.headerBar>i
+{
+ color: #fff;
+ font-size:2em;
+}
+.headerBar-active>i
+{
+ color: #fff;
+ font-size:2em;
+}
+.headerBar-a
+{
+ display: none;
+}
+.headerBar-active>a
+{
+   margin: 0%;
+ display: block;
+}
+p{
+   text-align: justify;
 }
 }
 
